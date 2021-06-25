@@ -4,8 +4,12 @@ const path = require('path')
 const app = express()
 
 app.get('/',function(req,res) {
-  res.sendFile(path.join(__dirname, '../tictacjs.html'));
+  res.sendFile(path.join(__dirname, '../public/tictacjs.html'));
 });
+
+app.get('/fist', function (req, res) {
+  res.sendFile(path.join(__dirname, '../public/fist.jpg'))
+})
 
 const port = process.env.PORT || 4000
 

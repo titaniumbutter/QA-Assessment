@@ -2,9 +2,9 @@
   "name": "qa-skills",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
+  "main": "Server/index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node Server/index.js",
     "test": "jest"
   },
   "repository": {
